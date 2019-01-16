@@ -1,0 +1,19 @@
+{
+  "name": "parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "Another one of these.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkvz/parcel-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkvz/parcel-boilerplate/issues"
+  },
+  "homepage": "https://github.com/dkvz/parcel-boilerplate#readme"
+}
