@@ -16,7 +16,14 @@ module.exports = {
 }
 ```
 
+You could store variables such as the full name of the site in "data".
+
 As far as I know, the include nunjucks directive will also include work with plain HTML files, you don't have to rename snippets you reuse.
 
-## TODO
-Add the simplest babelrc with preset env.
+## Babel
+I thought of using the simplest babelrc with preset env, but it looks as if that's already what's being used.
+
+The ES6 code I wrote in app.js gets transpiled.
+
+## Cleaning dist
+The `parcel-plugin-clean-dist` plugin is there to clean up the dist directory automatically.
